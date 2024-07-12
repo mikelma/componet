@@ -1,11 +1,19 @@
 # Self-Composing Policies for Scalable Continual Reinforcement Learning
 
-This repository is part of the supplementary material of the paper
-entitled *Self-Composing Policies for Scalable Continual Reinforcement
-Learning*.
+This repository is part of the supplementary material of the paper [*Self-Composing Policies for Scalable Continual Reinforcement Learning*](https://openreview.net/pdf?id=f5gtX2VWSB). The paper is published at [ICML 2024](https://icml.cc/virtual/2024/poster/33472) and selected for [oral presentation](https://icml.cc/virtual/2024/oral/35492).
 
+To cite this project in publications:
 
-## Structure of the repo
+```bibtex
+@inproceedings{malagon2024selfcomp,
+  title={Self-Composing Policies for Scalable Continual Reinforcement Learning},
+  author={Malagon, Mikel and Ceberio, Josu and Lozano, Jose A},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2024}
+}
+```
+
+## Structure of the repo 🌳
 
 The repository is organized into three main parts: `componet`, that
 holds the implementation of the proposal of the paper;
@@ -61,7 +69,7 @@ Finally, all PPO and SAC scripts are based on the excellent
 [CleanRL](https://github.com/vwxyzjn/cleanrl) project, that provides
 high-quality implementations of many RL algorithms.
 
-## 📋 Requirements
+## Requirements 📋
 
 Likewise the experimentation, the requirements are divided in two
 sets, each containing the packages required for each group of
@@ -85,7 +93,7 @@ Note that the `atari` experiments use the `ALE` environments from the
 employs [meta-world](https://github.com/Farama-Foundation/Metaworld).
 
 
-## Reproducing the results
+## Reproducing the results 🔄
 
 If you want to reproduce any of the results that appear in the paper,
 just call the corresponding training script with the default CLI
@@ -94,13 +102,8 @@ options (just change the environment and task options if needed).
 All of the CLI options have the default value that was used in the
 paper ☺️.
 
-## License
+## License 🐃
 
 This repository is distributed under the terms of the GLPv3
 license. See the [LICENSE](./LICENSE) file for more details, or visit
 the [GPLv3 homepage](https://www.gnu.org/licenses/gpl-3.0.en.html).
-
-## Contributing
-
-Please consider opening an issue on this repository to contribute,
-contributions are welcome!
