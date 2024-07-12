@@ -2,9 +2,11 @@
 
 This repository is part of the supplementary material of the paper [*Self-Composing Policies for Scalable Continual Reinforcement Learning*](https://openreview.net/pdf?id=f5gtX2VWSB). The paper is published at [ICML 2024](https://icml.cc/virtual/2024/poster/33472) and selected for [oral presentation](https://icml.cc/virtual/2024/oral/35492).
 
-<center>
-<img src="./componet.png" alt="CompoNet" width="500" align="center">
-</center>
+<br>
+<p align="center">
+  <img src="./componet.png" alt="CompoNet" width="700" align="center">
+</p>
+<br>
 
 To cite this project in publications:
 
